@@ -23,9 +23,10 @@ qa_data = [
             "I want to put admission for CSE course in your collage.",
             "I want to put admission for ECE course in your collage.",
             "I want to put admission for EEE course in your collage.",
-            "admission for EEE."
+            "admission for EEE.",
+            "admission"
         ],
-        "answer": "https://forms.gle/rCcmmLxLe1waj3tJ8 (you can put your admission by using this link)"
+        "answer": "https://forms.gle/rCcmmLxLe1waj3tJ8 <br> (you can put your admission by using this link)"
     },
     {
         "id": "AIML_STAFF",
@@ -34,34 +35,35 @@ qa_data = [
             "aiml professors",
             "aiml teachers",
             "aiml staff",
-            "aiml faculty"
+            "aiml faculty",
+            "staff aiml"
         ],
-        "answer": '''1.Mr.R. Raj Bharath https://ibb.co/HtK7Hwy <br>
-        2.Mrs.K. ANUPRIYA https://www.google.com/url?q=http%3A%2F%2Faiml_staff&sa=D <br>
-        3.Mrs.S.K SUGUNEDHAM https://in.docworkspace.com/d/sIA64hYOQAprqsLcG?sa=cl <br>
-        4.Mrs.S. CHITRA https://in.docworkspace.com/d/sIAm4hYOQArTqsLcG?sa=cl <br>
-        5.Mr.A. JAINULLABEEN https://in.docworkspace.com/d/sIJC4hYOQAsfqsLcG?sa=cl <br>
-        6.Mrs.S. LAVANYA https://in.docworkspace.com/d/sIKC4hYOQAt7qsLcG?sa=cl <br>
-        7.Ms.V. NIRIMATHI https://in.docworkspace.com/d/sIPO4hYOQAvDqsLcG?sa=cl <br>
-        8.Ms.K. REVATHI https://in.docworkspace.com/d/sIFe4hYOQAoDrsLcG?sa=cl <br>
-        9.Mrs.S. PRAVEENA https://in.docworkspace.com/d/sIBm4hYOQAqrrsLcG?sa=cl <br>
-        10.Mrs.P. SUGANYA https://in.docworkspace.com/d/sIFS4hYOQArnrsLcG?sa=cl <br>
-        11.Mr.R. RENGA NAYAGI https://in.docworkspace.com/d/sIIW4hYOQAtXrsLcG?sa=cl <br>
-        They are the faculty of AIML in 2024-25. You can also check the faculty details by clicking the link next to their name.'''
+        "answer": "1.Mr.R. RAJ BHARATH <br> https://i.ibb.co/vxWt071p/Screenshot-20250918-104230.jpg <br>"
+        "2.Mrs.S.K SUGUNEDHAM <br> https://i.ibb.co/sS1sp64/Screenshot-20250917-100823.jpg <br>"
+        "3.Mrs.S. CHITRA <br> https://i.ibb.co/JWHkZzyQ/Screenshot-20250917-100838.jpg <br>"
+        "4.Mr.A. JAINULLABEEN <br> https://i.ibb.co/WvRywr5b/Screenshot-20250917-100856.jpg <br>"
+        "5.Mrs.S. LAVANYA <br>https://i.ibb.co/C5D6Cwtc/Screenshot-20250917-100926.jpg  <br>"
+        "6.Ms.V. DIANA <br> https://i.ibb.co/qLvDRTb8/Screenshot-20250917-101145.jpg  <br>"
+        "7.Ms.K. REVATHI <br> https://i.ibb.co/vx96FNV9/Screenshot-20250917-101009.jpg  <br>"
+        "8.Mrs.S. PRAVEENA <br> https://i.ibb.co/8D8TDKnR/Screenshot-20250917-101057.jpg  <br>"
+        "9.Mrs.P. SUGANYA <br> https://i.ibb.co/7txkqXCt/Screenshot-20250917-101119.jpg  <br>"
+        "10.Mr.R. RENGA NAYAGI <br> https://i.ibb.co/vxX4cYFX/Screenshot-20250917-101134.jpg  <br>"
+        "They are the faculty of AIML in 2025-26. You can also check the faculty details by clicking the link next to their name."
     },
     {
         "id": "Bot name.",
         "questions": [
             "your name.",
             "what is your name.",
-            "tell me your name."
+            "tell me your name.",
+            "name"
         ],
         "answer": "My name is AK."
     },
     {
         "id": "bus_clg",
         "questions": [
-            "mvit fan",
+            "mvit bus",
             "buses in mvit clg",
             "buses in mvit",
             "mvit bus routes",
@@ -69,9 +71,25 @@ qa_data = [
             "manakula vinayagar institute of technology buses",
             "mvit bus details",
             "clg bus details",
-            "clg bus"
+            "clg bus",
+            "bus details"
         ],
-        "answer": "You can also track the location of the bus by using ( Ride map ) app which is available in play store. [but the student who not using the clg bus can't able to track it]"
+        "answer": "img:/static/images/bus_fees.jpeg"
+    },
+    {
+        "id": "bus image",
+        "questions": [
+            "mvit bus image",
+            "buses images mvit clg",
+            "buses pic in mvit",
+            "mvit bus pics",
+            "mvit bus pictures",
+            "manakula vinayagar institute of technology bus image",
+            "mvit bus pic",
+            "clg bus photo",
+            "clg photos"
+        ],
+        "answer": "img:/static/images/bus.jpeg"
     },
     {
         "id": "canteen",
@@ -83,7 +101,7 @@ qa_data = [
             "ground floor canteen menu",
             "canteen menu"
         ],
-        "answer": "The clg canteen menu is given below"
+        "answer": "img:/static/images/canteen.jpeg"
     },
     {
         "id": "clg_estabilsed",
@@ -109,9 +127,10 @@ qa_data = [
             "I want details about your collage",
             "I want details about my collage",
             "give some information about my collage",
-            "give some information about your collage"
+            "give some information about your collage",
+            "web"
         ],
-        "answer": "https://mvit.edu.in/                                                                                                              (you can visit our clg website)"
+        "answer": "https://mvit.edu.in/<br> (you can visit our clg website)"
     },
     {
         "id": "clg_location",
@@ -126,7 +145,9 @@ qa_data = [
             "collage location link",
             "collage location"
         ],
-        "answer": "Manakula vinayagar institute of technology was located in Madagadipet. ( you can also use the given link to find the exact location of our collage) https://maps.app.goo.gl/Z15uPr65jNhRfe117"
+        "answer": "Manakula vinayagar institute of technology was located in Madagadipet.<br>"
+        " ( you can also use the given link to find the exact location of our collage) <br>"
+        "https://maps.app.goo.gl/Z15uPr65jNhRfe117"
     },
     {
         "id": "computer_lab",
@@ -136,9 +157,10 @@ qa_data = [
             "cs lab in mvit clg",
             "computer lab in mvit",
             "photo of computer lab",
-            "images of cse lab"
+            "images of cse lab",
+            "copmuter lab"
         ],
-        "answer": "Answer not available"
+        "answer": "img:/static/images/computer_lab.jpeg"
     },
     {
         "id": "courses in our clg",
@@ -149,10 +171,16 @@ qa_data = [
             "courses in your clg.",
             "courses in your collage.",
             "what  are courses in your clg.",
-            "what  are courses in your collage."
+            "what  are courses in your collage.",
+            "deprtments",
+            "departments in our clg",
+            "what are the deparments are in mvit",
+            "dept"
         ],
-        "answer": "I have only information about engineering branch. so the engineering courses offered by our collage in the year of 2024-25 are: EEE,ECE,CSE,IT,MECH,RA,FT,IOT and AIML."
-    },
+        "answer": "I have only information about engineering branch.<br>"
+        " so the engineering courses offered by our collage in the year of 2025-26 are:<br>"
+        "EEE,<br> ECE,<br> CSE,<br> IT,<br> MECH,<br> RA,<br> FT,<br> IOT,<br> AIML,<br>"
+    },                                                                                      
     {
         "id": "Default Welcome Intent",
         "questions": [
@@ -185,19 +213,105 @@ qa_data = [
             "digital library in mvit pondicheery",
             "digital library"
         ],
-        "answer": "Our Digital Library facilitates students and faculty members a modern digital learning approach with technically sophisticated environment to enhance their knowledge through e-journals &  e \u2013 books with unlimited access"
+        "answer": "img:/static/images/digital_library.jpeg"
     },
     {
         "id": "eee_staff",
         "questions": [
-            "EEE teachers"
-            ,
+            "Eee mentors",
+            "EEE teachers",
             "eee professers",
             "eee staff",
             "eee faculty",
-            "staff eee"
+            "staff eee",
+            "electrical and electronics communication staff"
         ],
-        "answer": "1.Dr.C. SHANMUGASUNDARAM https://in.docworkspace.com/d/sII24hYOQAsy3sLcG?sa=cl <br>2.Dr.K. SEDHURAMAN https://in.docworkspace.com/d/sIAK4hYOQAva3sLcG?sa=cl <br>3.Mr.S. RAJKUMAR https://in.docworkspace.com/d/sIOa4hYOQAo24sLcG?sa=cl <br>4.Mr.N. AMARABALAN https://in.docworkspace.com/d/sIFG4hYOQAru4sLcG?sa=cl <br>5.Mr.D. BALAJI https://in.docworkspace.com/d/sICO4hYOQAq_SsLcG?sa=cl <br>6.Mr. DMURUGANANDHAN https://in.docworkspace.com/d/sIMW4hYOQAr_SsLcG?sa=cl <br>7.Mrs.R. UMAMAHESWARI https://in.docworkspace.com/d/sIJW4hYOQAtDSsLcG?sa=cl <br>8.Mrs.S. SANTHALAKSHMY https://in.docworkspace.com/d/sIGW4hYOQAuDSsLcG?sa=cl <br>9.Mrs.R. MUTHUNAGAI https://in.docworkspace.com/d/sIF-4hYOQAvLSsLcG?sa=cl <br>10.Mrs.R. PRIYA https://in.docworkspace.com/d/sIAK4hYOQAoLTsLcG?sa=cl <br>11.Mrs.J. VIJAYA RAGHAVAN https://in.docworkspace.com/d/sIO-4hYOQApHTsLcG?sa=cl <br>12.Mr.S. VEERAMANIKANDAN https://in.docworkspace.com/d/sINS4hYOQArvTsLcG?sa=cl <br>13.Mr.P. TAMIZHARASAN https://in.docworkspace.com/d/sIH64hYOQAtDTsLcG?sa=cl <br>14.Mrs. SUVEDHA https://in.docworkspace.com/d/sIOq4hYOQAt7TsLcG?sa=cl <br>They are the faculty of EEE in 2024-25. You can also check the faculty details by clicking the link next to their name."
+        "answer": "1.Dr.C. SHANMUGASUNDARAM (HOD)<br> https://i.ibb.co/60s9xkNR/Screenshot-20250917-145828.jpg <br>"
+        "2.Dr.K. SEDHURAMAN <br> https://i.ibb.co/RG6W9n11/Screenshot-20250917-145853.jpg <br>"
+        "3.Mr.S. RAJKUMAR <br> https://i.ibb.co/0pjTrkXb/Screenshot-20250917-150009.jpg <br>"
+        "4.Mr.N. AMARABALAN <br> https://i.ibb.co/WvXrzrt6/Screenshot-20250917-150040.jpg <br>"
+        "5.Mr.D. BALAJI <br>  https://i.ibb.co/TqWKm0fw/Screenshot-20250917-150054.jpg <br>"
+        "7.Mrs.R. UMAMAHESWARI <br> https://i.ibb.co/gbGjNmwB/Screenshot-20250917-150345.jpg <br>"
+        "8.Mrs.S. SANTHALAKSHMY <br> https://i.ibb.co/GfRW5QVj/Screenshot-20250917-150318.jpg <br>"
+        "9.Mrs.R. MUTHUNAGAI <br> https://i.ibb.co/kVfLT50v/Screenshot-20250917-150205.jpg  <br>"
+        "10.Mrs.R. PRIYA <br> https://i.ibb.co/PsV4Mtf2/Screenshot-20250917-150306.jpg  <br>"
+        "11.Mrs.J. VIJAYA RAGHAVAN <br> https://i.ibb.co/msvy6c9/Screenshot-20250917-150230.jpg <br>"
+        "They are the faculty of EEE in 2025-26. <br> You can also check the faculty details by clicking the link next to their name."
+    },
+    {
+        "id": "ece_staff",
+        "questions": [
+            "Ec e mentors",
+            "EcE teachers",
+            "ece professers",
+            "ECE staff",
+            "ECE faculty",
+            "staff ece",
+            "EcE STAFF",
+            "ec estaff",
+            "ecestaff"
+            "electronics and communication engineering staff"
+        ],
+        "answer":"1Dr.A.THENMOZHI	(PROFESSOR) <br>"
+                 "2Dr.R.VALLI (PROFESSOR) <br>"
+                 "3Dr.S.ARUNMOZHI  (PROFESSOR) <br>"
+                 "4Dr.M.JAYEKUMAR	(PROFESSOR) <br>"
+                 "5Dr.S.SEMMALAR (ASSOCIATE PROFESSOR) <br>"
+                 "6Dr.R.SOFIA (ASSOCIATE PROFESSOR) <br>"
+                 "7Dr.V.GOWTHAMI  (ASSOCIATE PROFESSOR) <br>"
+                 "8Dr.S.VINOTH  (ASSOCIATE PROFESSOR) <br>"
+                 "9Dr.M.SIVASINDHU  (ASSOCIATE PROFESSOR) <br>"
+                 "10Mr.V.RAJESH  (ASSISTANT PROFESSOR) <br>"
+                 "11Mr.K.KUMARAN  (ASSISTANT PROFESSOR) <br>"
+                 "12Ms.K.ALAMELU  (ASSISTANT PROFESSOR) <br> They are the faculty of ECE in 2025-26."
+    },
+    {
+        "id": "cse_staff",
+        "questions": [
+            "cse mentors",
+            "CSE teachers",
+            "Cse professers",
+            "cse staff",
+            "cse faculty",
+            "staff cse",
+            "cse STAFF",
+            "computer science engineering staff"
+        ],
+        "answer":"1.Dr. S.Pariselvam (HOD) <br> https://i.ibb.co/qG387cc/Screenshot-20250918-075408.jpg <br>"
+                 "2.Mrs.G.Sharmila <br> https://i.ibb.co/tpR3sT8X/IMG-20250918-113547.jpg <br>"
+                 "3.Mr. R. Sathish Kumar <br> https://i.ibb.co/bM7Tnq40/Screenshot-20250918-075426.jpg <br>"
+                 "4.Mrs. I. Varalakshmi <br> https://i.ibb.co/3YRJZXwM/Screenshot-20250918-075532.jpg <br>"
+                 "5.Mrs. J. Jayapradha <br> https://i.ibb.co/s9WCngj3/Screenshot-20250918-113445.jpg <br>"
+                 "6.Mr.A.Sankaran <br> https://i.ibb.co/Y7gknsqw/Screenshot-20250918-075557.jpg <br>"
+                 "7Mrs. J. Jayapradha <br> https://i.ibb.co/s9WCngj3/Screenshot-20250918-113445.jpg <br>"
+                 "8.Mrs. N. Kavitha <br> https://i.ibb.co/Y4BgzYPZ/Screenshot-20250918-113646.jpg <br>"
+                 "9.Mrs. P. Suganya <br> https://i.ibb.co/bRGNYKtM/Screenshot-20250918-113657.jpg <br>"
+                 " They are the faculty of CSE in 2025-26."
+    },
+    {
+        "id": "it_staff",
+        "questions": [
+            "it mentors",
+            "IT staff",
+            "i t professers",
+            "IT staff",
+            "it faculty",
+            "staff it",
+            "it STAFF",
+            "information technology staff"
+        ],
+        "answer": "1.Dr.P.Sivakumar (Professor) <br>"
+                  "2.Dr.A. Meiappane (Professor) <br>"
+                  "3.Mr. S. Uthayashangar (Assistant Professor) <br>"
+                  "4.Ms. A. Punitha (Assistant Professor) <br>"
+                  "5.Ms. J. Prabavadhi (Assistant Professor) <br>"
+                  "6.Mr. K. Premkumar (Assistant Professor) <br>"
+                  "7.	Mrs.L.Sankari (Assistant Professor) <br>"
+                  "8.Mr.S.Shanmugasundaram (Assistant Professor) <br>"
+                  "9.Ms.R.Dhamayanthi (Assistant Professor) <br>"
+                  "10.Ms.V.Abirami(Assistant Professor) <br>"
+                  "11.Mrs.D.Sudha (Assistant Professor) <br>"
+                  "12.Mrs. G. Anuradha <br> They are the faculty of IT in 2025-26."
     },
     {
         "id": "fees for AIML",
@@ -207,7 +321,7 @@ qa_data = [
             "fees for AIML.",
             "tell me the fees structure for AIML."
         ],
-        "answer": "The fees structure for AIML  in 2024-25.for centac students is Rs:52,700 and for  management is Rs:81,500."
+        "answer": "The fees structure for AIML  in 2025-26.for centac students is Rs:52,700 and for  management is Rs:81,500."
     },
     {
         "id": "fees for CSC.",
@@ -218,7 +332,7 @@ qa_data = [
             "fees for CSE.",
             "tell me the fees structure for CSE."
         ],
-        "answer": "The fees structure for CSE in 2024-25.for centac students is Rs:62,700 and for management students is Rs:91,500"
+        "answer": "The fees structure for CSE in 2025-26.for centac students is Rs:62,700 and for management students is Rs:91,500"
     },
     {
         "id": "fees for ECE",
@@ -228,7 +342,7 @@ qa_data = [
             "fess for ECE",
             "tell me the fees structure for ECE."
         ],
-        "answer": "The fess structure for ECE in 2024-25.for centac students is Rs:62,700 and for management students is Rs:81,500."
+        "answer": "The fess structure for ECE in 2025-26.for centac students is Rs:62,700 and for management students is Rs:81,500."
     },
     {
         "id": "fees for FT",
@@ -238,7 +352,7 @@ qa_data = [
             "fees for FT.",
             "tell me the fees structure for FT."
         ],
-        "answer": "The fees structure for FT in 2024-25.for centac students is Rs:52,700 and for management students is Rs:71,500."
+        "answer": "The fees structure for FT in 2025-26.for centac students is Rs:52,700 and for management students is Rs:71,500."
     },
     {
         "id": "fees for IOT",
@@ -248,7 +362,7 @@ qa_data = [
             "fees for IOT.",
             "tell me the fees structure for IOT."
         ],
-        "answer": "The fees structure IOT  for in 2024-25.for centac students is Rs:52,700 and for management students is Rs:81,500."
+        "answer": "The fees structure IOT  for in 2025-26.for centac students is Rs:52,700 and for management students is Rs:81,500."
     },
     {
         "id": "fees for IT",
@@ -258,7 +372,7 @@ qa_data = [
             "fees for IT.",
             "tell me the fees structure for IT."
         ],
-        "answer": "The fees structure for IT in 2024-25.for centac students is Rs:62,700 and for management students is Rs:91,500."
+        "answer": "The fees structure for IT in 2025-26.for centac students is Rs:62,700 and for management students is Rs:91,500."
     },
     {
         "id": "fees for MECH",
@@ -266,9 +380,9 @@ qa_data = [
             "mechanical engineering fees",
             "mech fees",
             "fees for MECH.",
-            "tell me the fees structure for <br> MECH."
+            "tell me the fees structure for MECH."
         ],
-        "answer": "The fees structure for MECH in 2024-25.for management students is Rs:52,700 and for centac students is Rs:52,700."
+        "answer": "The fees structure for MECH in 2025-26.for management students is Rs:52,700 and for centac students is Rs:52,700."
     },
     {
         "id": "fees for RA",
@@ -277,9 +391,9 @@ qa_data = [
             "robotics fees",
             "fees for robotics",
             "fees for RA",
-            "tell me the fees structure for <br> RA."
+            "tell me the fees structure for RA."
         ],
-        "answer": "The fees structure for RA in 2024-25.for centac students is Rs:52,700 and for management students is Rs:71,500."
+        "answer": "The fees structure for RA in 2025-26.for centac students is Rs:52,700 and for management students is Rs:71,500."
     },
     {
         "id": "fess for EEE",
@@ -290,18 +404,25 @@ qa_data = [
             "fees structure for EEE.",
             "tell me the fees structure for EEE."
         ],
-        "answer": "The fess structure for EEE in 2024-25.for management students is Rs:52,700 and for centac students is Rs:52,700."
+        "answer": "The fess structure for EEE in 2025-26.for management students is Rs:52,700 and for centac students is Rs:52,700."
     },
     {
         "id": "FT_STAFF",
         "questions": [
-            "ft professors",
+            "FT professors",
             "ft techers",
             "ft mentors",
             "ft faculty",
-            "ft staff"
+            "f t staff"
         ],
-        "answer": "1.Dr.D. Tiroutchelvame https://in.docworkspace.com/d/sICO4hYOQAsf5sLcG?sa=cl  <br>2.Dr.S. Aruna https://in.docworkspace.com/d/sIEy4hYOQAvv5sLcG?sa=cl                  <br>                                                                                                                                                    3.Dr.S. Santhalakshmy https://in.docworkspace.com/d/sICe4hYOQAor6sLcG?sa=cl   <br>                                                                                                                                                    4.Dr.R. Baghya Nisha https://in.docworkspace.com/d/sILm4hYOQApj6sLcG?sa=cl                                        <br>                                                                                                                                                    5.Er.R. Shailajha https://in.docworkspace.com/d/sIGi4hYOQAqn6sLcG?sa=cl            <br>                                                                                                                                                    6.Er. Vimal,H https://in.docworkspace.com/d/sIKK4hYOQArr6sLcG?sa=cl                   <br>                                                                                                                                                    7.Er.S. Indumathi https://in.docworkspace.com/d/sIG64hYOQAsb6sLcG?sa=cl                   <br>                                                                                                                                                    8.Er.M .Nithyapriya (link is not available)                                                                              <br>                                                                                                                                                     They are the faculty of FT in 2024-25. You can also check the faculty details by clicking the link next to their name."
+        "answer": "1.Dr.D. Tiroutchelvame https://in.docworkspace.com/d/sICO4hYOQAsf5sLcG?sa=cl  <br>"
+        "2.Dr.S. Aruna https://in.docworkspace.com/d/sIEy4hYOQAvv5sLcG?sa=cl  <br>"
+        "3.Dr.S. Santhalakshmy https://in.docworkspace.com/d/sICe4hYOQAor6sLcG?sa=cl  <br>"
+        "4.Dr.R. Baghya Nisha https://in.docworkspace.com/d/sILm4hYOQApj6sLcG?sa=cl  <br>"
+        "5.Er.R. Shailajha https://in.docworkspace.com/d/sIGi4hYOQAqn6sLcG?sa=cl  <br>"
+        "6.Er. Vimal,H https://in.docworkspace.com/d/sIKK4hYOQArr6sLcG?sa=cl  <br>"
+        "7.Er.S. Indumathi https://in.docworkspace.com/d/sIG64hYOQAsb6sLcG?sa=cl  <br>"
+        "They are the faculty of FT in 2025-26. You can also check the faculty details by clicking the link next to their name."
     },
     {
         "id": "good afternoon",
@@ -343,13 +464,20 @@ qa_data = [
         "id": "iot_staff",
         "questions": [
             "information of things faculty",
-            "iot teachers",
+            "IOT teachers",
             "iot mentors",
             "iot facultys",
             "iot professors",
-            "iot staffs"
+            "io t staffs",
+            "i ot staff"
         ],
-        "answer": "1.Dr.N. PALANIVEL ( Link is not available )     <br>                                                                                                                                                    2.Mrs.V.SUGANYA ( Link is not available )                                                                                                                                            <br>                                                                                                                                                      3.Mr.V.KUMARAGURU https://in.docworkspace.com/d/sIPC4hYOQArX1urcG?sa=cl         <br>                                                                                                                                                    4.Mrs.K.C NITHYASREE https://in.docworkspace.com/d/sIFe4hYOQAv71urcG?sa=cl                    <br>                                                                                                                                                    5.Mr.G.KEERTHIRAAJ ( Link is not available )                                                                                                           <br>                                                                                                                                                    6.Ms.S.ADOLPHINE SHYNI https://in.docworkspace.com/d/sICu4hYOQAov2urcG?sa=cl                                                                                                                                           <br>                                                                                                                                                    7.Mrs.K.KAVITHA https://in.docworkspace.com/d/sIAG4hYOQApj2urcG?sa=cl         <br>                                                                                                                                                    <br> 8.Ms.A.SHEERIN https://in.docworkspace.com/d/sIKC4hYOQAqT2urcG?sa=cl            <br>                                                                                                                                                    9.Mr.U.MURUGANANTHAM ( Link is not available )                                                                                    <br>                                                                                                                                                    They are the faculty of IOT in 2024-25. You can also check the faculty details by clicking the link next to their name."
+        "answer": "1.Dr.N. PALANIVEL (HOD) <br>"
+        "2.Mr.V.KUMARAGURU <br> https://i.ibb.co/Hpn3Pgk8/Screenshot-20250918-115645.jpg <br>"
+        "3.Mrs.K.C NITHYASREE <br> https://i.ibb.co/M58VJh3H/Screenshot-20250918-115659.jpg <br>"
+        "4.Ms.S.ADOLPHINE SHYNI <br> https://i.ibb.co/5WN4bSmL/Screenshot-20250918-115715.jpg  <br>"
+        "5.Mrs.K.KAVITHA <br> https://i.ibb.co/RTW7wQqG/Screenshot-20250918-115729.jpg <br>"
+        "6.Ms.A.SHEERIN <br> https://i.ibb.co/NdcrZFhQ/Screenshot-20250918-115748.jpg <br>"
+        "They are the faculty of IOT in 2025-26. You can also check the faculty details by clicking the link next to their name."
     },
     {
         "id": "Library",
@@ -360,7 +488,7 @@ qa_data = [
             "library in our clg",
             "library"
         ],
-        "answer": "img:/static/images/li.jpeg"
+        "answer": "img:/static/images/library.jpeg"
     },
     {
         "id": "mech_staff",
@@ -371,7 +499,17 @@ qa_data = [
             "mech professors",
             "mechanical engineering faculty"
         ],
-        "answer": "1.Dr.B.RADJARAM https://in.docworkspace.com/d/sIMm4hYOQAr6Eu7cG?sa=cl                                                <br>                                                                                                                                                    2.Mr.K.KARTHIGAYAN https://in.docworkspace.com/d/sINO4hYOQAtSEu7cG?sa=cl                                                                                                                                           <br>                                                                                                                                                    3.Mr.K.SELVAM https://in.docworkspace.com/d/sIKS4hYOQAuaEu7cG?sa=cl                                       <br>                                                                                                                                                    4.Mr.B.VASANTH https://in.docworkspace.com/d/sIHC4hYOQAviEu7cG?sa=cl                                                        <br>                                                                                                                                                    5.Mr.S.GANESHKUMAR https://in.docworkspace.com/d/sIHC4hYOQAo6Fu7cG?sa=cl                                                                                                                                                               <br>                                                                                                                                                    6.Mr.A.THIAGARAJAN https://in.docworkspace.com/d/sIEq4hYOQApyFu7cG?sa=cl                      <br>                                                                                                                                                    7.Mr.KARTHIKEYAN https://in.docworkspace.com/d/sIDy4hYOQArOFu7cG?sa=cl                         <br>                                                                                                                                                    8.Mr.J.SUGUMARAN https://in.docworkspace.com/d/sICW4hYOQAseFu7cG?sa=cl                          <br>                                                                                                                                                    9.Mr.R.RANJIT KUMAR https://in.docworkspace.com/d/sIM-4hYOQAtiFu7cG?sa=cl          <br>                                                                                                                                                  10.Ms.S.SUGUNYA https://in.docworkspace.com/d/sIHK4hYOQAu-Fu7cG?sa=cl                   <br>11.Mr.R.ILANDJEZIANR https://in.docworkspace.com/d/sIOy4hYOQAoKGu7cG?sa=cl                                                                                                                                  12.Dr.A.MATHIARASU https://in.docworkspace.com/d/sIGS4hYOQApmGu7cG?sa=cl                                                                                                                                    13.Dr.P.NATARAJAN https://in.docworkspace.com/d/sID-4hYOQAraGu7cG?sa=cl              <br>14.Mr.S.KRISHNA KUMAR https://in.docworkspace.com/d/sIHq4hYOQAtSGu7cG?sa=cl                                                                                                                                        15.Mrs.G.DEEBA https://in.docworkspace.com/d/sIAu4hYOQAvGGu7cG?sa=cl                       16.Mrs.S.SHEENA https://in.docworkspace.com/d/sIK24hYOQApaHu7cG?sa=cl              <br>They are the faculty of MECH in 2024-25. You can also check the faculty details by clicking the link next to their name."
+        "answer": "1.Dr.B.RADJARAM <br> https://i.ibb.co/CKkZtChw/Screenshot-20250918-120858.jpg <br>"  
+        "2.Mr.B.VASANTH <br> https://i.ibb.co/JRp2dNm9/Screenshot-20250918-121346.jpg <br>"
+        "3.Mr.J.SUGUMARAN <br> https://i.ibb.co/BVy3BjW1/Screenshot-20250918-121410.jpg <br>" 
+        "4.Mr.R.RANJIT KUMAR <br> https://i.ibb.co/8Gc56Wh/Screenshot-20250918-121425.jpg <br>"         
+        "5.Ms.S.SUGUNYA <br> https://i.ibb.co/Q3JMyV7G/Screenshot-20250918-121442.jpg <br>" 
+        "6.Mr.R.ILANDJEZIANR <br> https://i.ibb.co/zW8LYWhR/Screenshot-20250918-121500.jpg <br>" 
+        "7.Dr.A.MATHIARASU <br> https://i.ibb.co/d0966y6F/Screenshot-20250918-121522.jpg  <br>"
+        "8.Dr.P.NATARAJAN <br> https://i.ibb.co/Df40TSvX/Screenshot-20250918-121548.jpg  <br>"
+        "9.Mrs.G.DEEBA <br> https://i.ibb.co/PZyLdCtd/Screenshot-20250918-121613.jpg  <br>"
+        "10.Mrs.S.SHEENA <br> https://i.ibb.co/Y7RDfgnw/Screenshot-20250918-121623.jpg  <br>"
+        "They are the faculty of MECH in 2025-26. <br> You can also check the faculty details by clicking the link next to their name."
     },
     {
         "id": "placement",
@@ -386,7 +524,7 @@ qa_data = [
             "placement records",
             "placement details"
         ],
-        "answer": "Answer not available"
+        "answer": "Mvit has 90% placement records"
     },
     {
         "id": "queries_form",
@@ -397,9 +535,11 @@ qa_data = [
             "I have some queries",
             "queries form",
             "queries section",
-            "where did i submit my queries"
+            "where did i submit my queries",
+            "queries",
+            "complaint"
         ],
-        "answer": "You can submit your queries by using the link https://docs.google.com/forms/d/e/1FAIpQLSe5kYktZG884dUGs7As2CxX240i5yq9O4pBoL4n6sJYITlRTA/viewform?usp=sf_link"
+        "answer": "You can submit your queries by using the link <br> https://docs.google.com/forms/d/e/1FAIpQLSe5kYktZG884dUGs7As2CxX240i5yq9O4pBoL4n6sJYITlRTA/viewform?usp=sf_link"
     },
     {
         "id": "robotics_staff",
@@ -412,7 +552,13 @@ qa_data = [
             "robotics and automation faculty",
             "robotics and automation staff"
         ],
-        "answer": "1.Dr.V.GOVINDHAN https://in.docworkspace.com/d/sIDe4hYOQAs2JsbcG?sa=cl     <br>                                                                                                                                                    2.Mr.A.BASKARAN https://in.docworkspace.com/d/sID-4hYOQApiKsbcG?sa=cl          <br>                                                                                                                                                    3.Mrs.KIRUBA SANDOU https://in.docworkspace.com/d/sING4hYOQAquKsbcG?sa=cl                                                                                                                                                               <br>                                                                                                                                                    4.Ms.D.JASMINE SUSILA https://in.docworkspace.com/d/sIDq4hYOQAuqKsbcG?sa=cl                                                                                                                                                <br>                                                                                                                                                    5.Mrs.J.V. PESHA https://in.docworkspace.com/d/sIJu4hYOQAvmKsbcG?sa=cl                        <br>                                                                                                                                                    6.Mrs.D.DHARANI https://in.docworkspace.com/d/sIPm4hYOQAoOLsbcG?sa=cl         <br>                                                                                                                                                    7.Mrs.T.SUDHA ( link is not  available )                                                                                 <br>                                                                                                                                                     They are the faculty of robotics and automation in 2024-25. You can also check the faculty details by clicking the link next to their name."
+        "answer": "1.Dr.V.GOVINDHAN <br> https://i.ibb.co/JRBtXGxp/Screenshot-20250918-135947.jpg  <br>"
+        "2.Mr.A.BASKARAN <br> https://i.ibb.co/VYXYCPyj/Screenshot-20250918-140000.jpg  <br>"
+        "3.Mrs.S.Ramya <br> https://i.ibb.co/H1XC1P7/Screenshot-20250918-140054.jpg <br>"
+        "4.Mrs.J.V. PESHA <br> https://i.ibb.co/gFFVxDSF/Screenshot-20250918-140018.jpg <br>"
+        "5.Mrs.D.DHARANI <br> https://i.ibb.co/HTqW7369/Screenshot-20250918-140033.jpg <br>"
+        "6.Mrs.T.SUDHA <br> https://i.ibb.co/pBpTxB0p/Screenshot-20250918-140044.jpg <br>"
+        "They are the faculty of robotics and automation in 2025-26.<br> You can also check the faculty details by clicking the link next to their name."
     },
     {
         "id": "room_num",
@@ -438,7 +584,7 @@ qa_data = [
             "how many seat alloted for cse",
             "cse seats"
         ],
-        "answer": "no of seats for computer science engineering in B.TECH in 2024 is... [240] and in M.TECH is ...[12]"
+        "answer": "no of seats for computer science engineering in B.TECH in 2025 is... [240] and in M.TECH is ...[12]"
     },
     {
         "id": "seats_for_ece",
@@ -451,7 +597,7 @@ qa_data = [
             "how many seat alloted for ece",
             "ece seats"
         ],
-        "answer": "no of seats for electronics and communication engineering  in B.TECH in 2024 is... [180] and in M.TECH is...[12]"
+        "answer": "no of seats for electronics and communication engineering  in B.TECH in 2025 is... [180] and in M.TECH is...[12]"
     },
     {
         "id": "seats_for_FT",
@@ -463,7 +609,7 @@ qa_data = [
             "how many seats are there for ft",
             "how many seat alloted for ft"
         ],
-        "answer": "no of seats for food technology  in 2024 is... [60]"
+        "answer": "no of seats for food technology  in 2025 is... [60]"
     },
     {
         "id": "seats_for_Iot",
@@ -475,7 +621,7 @@ qa_data = [
             "how many seats are there for iot",
             "how many seat alloted for iot"
         ],
-        "answer": "no of seats for information of things in 2024 is... [60]"
+        "answer": "no of seats for information of things in 2025 is... [60]"
     },
     {
         "id": "seats_for_MECH",
@@ -489,7 +635,7 @@ qa_data = [
             "how many seat alloted for mech",
             "mech seats"
         ],
-        "answer": "no of seats for mechanical engineering in 2024 is... [60]"
+        "answer": "no of seats for mechanical engineering in 2025 is... [60]"
     },
     {
         "id": "seats_for_robotics",
@@ -500,7 +646,7 @@ qa_data = [
             "how many seats are there for RA",
             "how many seat alloted for RA"
         ],
-        "answer": "no of seats for robotics in 2024 is... [60]"
+        "answer": "no of seats for robotics in 2025 is... [60]"
     },
     {
         "id": "seat_for_aiml",
@@ -513,7 +659,7 @@ qa_data = [
             "seat for aiml in mit",
             "seat for aiml"
         ],
-        "answer": "no of seats for artificial and machine learning in 2024 is... [180]"
+        "answer": "no of seats for artificial and machine learning in 2025 is... [180]"
     },
     {
         "id": "seat_for_eee",
@@ -527,7 +673,7 @@ qa_data = [
             "how many seat alloted for eee",
             "eee seats"
         ],
-        "answer": "no of seats for electrical and electronics engineering in 2024 is... [60]"
+        "answer": "no of seats for electrical and electronics engineering in 2025 is... [60]"
     },
     {
         "id": "seat_for_IT",
@@ -540,7 +686,7 @@ qa_data = [
             "how many seat alloted for it",
             "it seats"
         ],
-        "answer": "no of seats for information technology in 2024 is... [120]"
+        "answer": "no of seats for information technology in 2025 is... [120]"
     },
     {
         "id": "sports",
@@ -616,7 +762,7 @@ qa_data = [
             "vision and mission of the manakula vinayagar institute of technology collage",
             "vision and mission of the mvit collage"
         ],
-        "answer": "The vision and mission of the clg is given below"
+        "answer": "img:/static/images/vision.jpeg"
     },
     {
         "id": "College Building Image",
@@ -626,6 +772,9 @@ qa_data = [
             "photo of college",
             "clg pic",
             "campus building picture"
+            "college",
+            "collage",
+            "images of a clg"
         ],
         "answer": "img:/static/images/college.jpeg"
     },
@@ -635,9 +784,14 @@ qa_data = [
             "hostel image",
             "clg hostel photo",
             "show me hostel picture",
-            "mvit hostel pic"
+            "mvit hostel pic",
+            "hostel",
+            "hostal",
+            "hostel in mvit",
+            "boys hostel",
+            "girls hostel"
         ],
-        "answer": "img:/static/images/hostel.jpg"
+        "answer": "img:/static/images/hostal.jpeg" 
     },
     {
         "id": "Sports Ground Image",
@@ -647,8 +801,465 @@ qa_data = [
             "mvit sports pic",
             "clg ground picture"
         ],
-        "answer": "img:/static/images/sports.jpg"
+        "answer": "img:/static/images/sports.jpg"  
+    },
+    {
+        "id": "user intraction",
+        "questions": [
+            "mvit bot",
+            "he bot",
+            "chat bot",
+            "MVIT bot",
+            "mit bot"
+        ],
+        "answer": "yeah,Tell me, How can I hell you?"
+    },
+    {
+        "id": "boys Hostel",
+        "questions": [
+            "boys hostel image",
+            "boys hostel photo",
+            "show me hostel picture of boy",
+            "mvit boys hostel pic",
+            "boys hostel",
+            "boys hostal",
+            "boys hostel in mvit",
+            "boys hostel",
+            "boys hostel"
+        ],
+        "answer": "img:/static/images/boys_hostel.jpeg" 
+    },
+    {
+        "id": "girls Hostel",
+        "questions": [
+            "girls hostel image",
+            "girls hostel photo",
+            "show me hostel picture of girls",
+            "mvit girls hostel pic",
+            "girl hostel",
+            "girls hostal",
+            "girl hostel in mvit",
+            "girl hostel",
+            "girls hostel"
+        ],
+        "answer": "img:/static/images/hostal.jpeg" 
+    },
+    {
+        "id": "PET ground",
+        "questions": [
+            "mvit pt ground",
+            "mit pet ground",
+            "MVIT p.e.t ground",
+            "sports ground in mvit",
+            "sports place",
+            "ground"
+        ],
+        "answer": "img:/static/images/pet_ground.jpeg"
+    },
+    {
+        "id": "volleyball ground",
+        "questions": [
+            "mvit volleyball ground",
+            "mit volley ball ground",
+            "MVIT volley ball ground",
+            "volley ground in mvit",
+            "volley ball place",
+            "volleyball ground",
+            "volleyball",
+            "volley ball"
+        ],
+        "answer": "img:/static/images/volleyball_ground.jpeg"
+    },
+    {
+        "id": "basketball ground",
+        "questions": [
+            "mvit Basketball ground",
+            "mit basket ground",
+            "MVIT basket_ball ground",
+            "basket ground in mvit",
+            "basket ball place",
+            "basketball ground",
+            "basketball",
+            "basket ball"
+        ],
+        "answer": "img:/static/images/basketball_ground.jpeg"
+    },
+    {
+        "id": "companies",
+        "questions": [
+            "no of companies in mvit clg",
+            "number of company are there in mit",
+            "how many companies are in mvit",
+            "companies",
+            "no of company"
+        ],
+        "answer": "MVIT has tie up with 50+ companies"
+    },
+    {
+        "id": "companies",
+        "questions": [
+            "what are the companies in mvit",
+            "company collab with mit",
+            "some company tie up with mvit",
+            "what company are partnership with mvit",
+            "name the company collabrated with MVIT",
+            "comapanies names",
+            "company name",
+            "name of the company",
+            "what are the company in mvit"
+        ],
+        "answer": "Google,<br> Microsoft,<br> TCS,<br> Virtusa,<br> Zoho etc"
+    },
+    {
+        "id": "no of students",
+        "questions": [
+            "no of students in mvit",
+            "number of students studying in mvit",
+            "total of students in mvit",
+            "how many students are there in mvit",
+            "mit students",
+            "total no of students in mit"
+        ],
+        "answer": "MVIT currently has 3000+ students"
+    },
+    {
+        "id":"no of labs",
+        "questions": [
+            "no of labs in mvit",
+            "number of lab in mvit",
+            "total of labs in mvit",
+            "how many Lab are there in mvit",
+            "mit LABS",
+            "total no of labs in mit"
+        ],
+        "answer": "MVIT has Total 11 labs"
+    },
+    {
+        "id":"principal",
+        "questions": [
+            "principal",
+            "principle of mvit",
+            "principal of mit",
+            "who is the principal of mvit",
+            "tell me the name of the principal",
+            "mvit principal"
+        ],
+        "answer": "Dr.S.Malarkkan is our collage Principal"
+    },
+    {
+        "id":"trustee",
+        "questions": [
+            "trustee",
+            "trustee of mvit",
+            "truste of mit",
+            "who is the trustee of mvit",
+            "tell me the name of the trustee",
+            "mvit trustree"
+        ],
+        "answer": "Mrs.V.Nirmala<br> Mrs.D.Geetha<br> They are the trustee of our college"
+    },
+    {
+        "id":"vice chairperson",
+        "questions": [
+            "vice chairperson",
+            "vice charperson of mvit",
+            "vice charperson",
+            "who is the vice chairperson of mvit",
+            "tell me the name of the vicecharperson",
+            "mvit vicechairperson",
+            "vicechairperson"
+        ],
+        "answer": " Mrs.K.Nalini is the vice chairperson of our collage"
+    },
+    {
+        "id":"secretary",
+        "questions": [
+            "secretary",
+            "secretary of mvit",
+            "secretary",
+            "who is the secretary of mvit",
+            "tell me the name of the secretary",
+            "mvit secretary",
+            "secretary"
+        ],
+        "answer": " Mrs.K.Nalini is the vice chairperson of our collage"
+    },
+    {
+        "id":"secretary",
+        "questions": [
+            "secretary",
+            "secretary of mvit",
+            "secretary",
+            "who is the secretary of mvit",
+            "tell me the name of the secretary",
+            "mvit secretary",
+            "secretary"
+        ],
+        "answer": " Mrs.K.Nalini is the vice chairperson of our collage"
+    },
+    {
+        "id":"secretary",
+        "questions": [
+            "secretary",
+            "secretary of mvit",
+            "secretary",
+            "who is the secretary of mvit",
+            "tell me the name of the secretary",
+            "mvit secretary",
+            "secretary"
+        ],
+        "answer": " Mrs.K.Nalini is the vice chairperson of our collage"
+    },
+    {
+        "id":"Treasurer",
+        "questions": [
+            "Treasurer",
+            "treasurer of mvit",
+            "treasurer",
+            "who is the treasurer of mvit",
+            "tell me the name of the treasurer",
+            "mvit treasurer",
+            "treasurer"
+        ],
+        "answer": "Shri.S.V. Sugamaran is the vice Treasurer of our collage"
+    },
+    {
+        "id":"chairman",
+        "questions": [
+            "chairman",
+            "chairman of mvit",
+            "Chairman",
+            "who is the Chairman of mvit",
+            "tell me the name of the chairman",
+            "mvit CHAIRMAIN",
+            "Chairman"
+        ],
+        "answer": "M. Dhanasekaran is the Chairman of our collage"
+    },
+    {
+        "id":"founder",
+        "questions": [
+            "founder",
+            "founder of mvit",
+            "founder",
+            "who is the founder of mvit",
+            "tell me the name of the founder",
+            "mvit FOUNDER",
+            "founder"
+        ],
+        "answer": "N.Kesavan is the Founder of our collage"
+    },
+    {
+        "id": "creator",
+        "questions": [
+            "who created you",
+            "creator",
+            "creater",
+            "who makes you",
+            "who is your boss",
+            "who makes you",
+            "maker",
+            "give creater name",
+            "name of the creator",
+            "your owner",
+            "woned by who",
+            "who woned you"
+        ],
+        "answer": "Mr.R.Avinash is my creator"
+    },
+    {
+        "id": "purpose",
+        "questions": [
+            "purpose",
+            "what purpose do you created",
+            "what is your purpose",
+            "tell me your features",
+            "what is your feature",
+            "purpose of mvit chatbot",
+            "purpose of ak chatbot",
+            "narrow chatbot purpose",
+            "purpose of narrow chatbot",
+            "purpose of you",
+            "purpose of the chatbot",
+            "why you made",
+            "why you make"
+        ],
+        "answer": "I’m a fast, I understand and generate clear responses on many topics and available 24/7, Multiple user can easily access me at same time, turn complex search into simple input, so you save time and get practical answers quickly."
+    },
+    {
+        "id": "placement percentage",
+        "questions": [
+            "How many students are graduated in mvit",
+            "graduation percrntage in mvit"
+            "no of placed percentage in mvit",
+            "placement percentage",
+            "percentage of placed students",
+            "How many students are placement in mvit",
+            "what is percentage of placement in mvit",
+            "mvit placements",
+            "placement record",
+            "placement record in mvit",
+            "placement"
+        ],
+        "answer": "Manakula vinayagar Institute of Technology has 90% placement records "
+    },
+    {
+        "id": "contact number",
+        "questions": [
+            "phone number",
+            "contact details",
+            "contact information",
+            "mvit phonenumber",
+            "mit mobile number",
+            "mit mail id",
+            "mail",
+            "mail id",
+            "mail information",
+            "give mail id and phone number",
+            "give phone number and mail id",
+            "how can we contact you",
+            "phone",
+            "contact"
+        ],
+        "answer": "You can contact MVIT through <br> Phone- 0413-2643007, <br> 9498093535 <br> Mail- principal@mvit.edu.in"
+    },
+    {
+        "id":"events",
+        "questions": [
+            "events in mvit",
+            "events",
+            "what are the events in mvit",
+            "events conducted in mvit",
+            "elan 2025",
+            "programs",
+            "programs in mvit clg",
+            "elan"
+        ],
+        "answer": "img:/static/images/elan_event.jpeg"
+    },
+    {
+        "id": "no of computer",
+        "questions":[
+            "number of computer are there in mvit",
+            "how many system are in mvit",
+            "no of system in mvit",
+            "systems in mvit",
+            "how many desktop are in mvit labs",
+            "how much computer used for work in mvit",
+            "computers in mvit"
+        ],
+        "answer":"Mvit has 558 computers"
+    },
+    {
+        "id": "no of server",
+        "questions":[
+            "number of servers are there in mvit",
+            "servers",
+            "total servers in mvit",
+            "Total servers"
+        ],
+        "answer":"Mvit has 6 servers"
+    },
+    {
+        "id": "network",
+        "questions":[
+            "network used",
+            "network",
+            "internet in mvit",
+            "which network is used in mvit"
+        ],
+        "answer":"Mvit has BSNL internet service"
+    },
+    {
+        "id": "cells",
+        "questions":[
+            "cells in mvit",
+            "cells",
+            "cell",
+            "committes in mvit",
+            "what are the cells are in mvit",
+            "cells of mvit",
+            "what are the committe are in mvit",
+            "committe of mvit",
+            "committe",
+            "committes"
+        ],
+        "answer":"1.Academic Planning committee <br>"
+                 "2.Quality Assessment Committee (QAC) <br>"
+                 "3.Academic Audit committee <br>"
+                 "4.Budget and finance committee <br>"
+                 "5.College News Letter, Magazine, Prospectus committee <br>"
+                 "6.Sports committee <br>"
+                 "7.Cultural committee <br>"
+                 "8.Anti-ragging committee <br>"
+                 "9.Grievances Redressal committee <br>"
+                 "10.Transport committee <br>"
+                "11.Discipline Committee <br>"
+                "12.Mentoring Committee and counseling <br>"
+                "13.Purchase committee <br>"
+                "14.Infrastructure Management / Time table committee <br>"
+                "15.HoDs committee <br>"
+                "16.Hods sub committee <br>"
+                "17.Canteen committee <br>"
+                "18.Hostel committee <br>"
+                "19.Code of Conduct Committee <br> These are the committes/cells of MVIT."
+    },
+    {
+       "id": "no of cells",
+        "questions":[
+            " no ofcells in mvit",
+            "how many cells are in mvit",
+            "total no of cells",
+            "no of committes in mvit",
+            "total no of committee are in mvit",
+        ],
+        "answer":"No of cells/committee in MVIT is 19" 
+    },
+    {
+        "id": "link",
+        "questions":[
+            "link",
+            "give me the link",
+            "i want link",
+            "send the link"
+        ],
+        "answer": "https://mvit.edu.in/<br> (you can visit our clg website)"
+    },
+    {
+        "id":"bye",
+        "questions":[
+        "bye",
+        "taata",
+        "good bye",
+        "i am going",
+        "see you later",
+        "leaving",
+        "see you back"
+        ],
+        "answer":"bye👋! Have a nice day"
+    },
+    {
+        "id": "AIML_HOD",
+        "questions": [
+            "aiml HOD",
+            "aiml hod",
+            "hod aiml"
+        ],
+        "answer":"Mr.R. RAJ BHARATH is the HOD of AIML."
+    },
+    {
+        "id": "cse_hod",
+        "questions": [
+            "cse hod",
+            "CSE hod",
+            "Cse hod",
+            "computer science engineering hod",
+            "hod of cse",
+            "who is the hod of cse"
+        ],
+        "answer":""
     }
+
 ]
 
 # -------------------- PREPROCESS --------------------
@@ -673,6 +1284,12 @@ def find_best_match(user_input):
     if match:
         return question_to_answer[match[0]]
     return "Answer not available."
+    import stmplib
+    host ="smtp.gamil.com"
+    port = 587
+    usmail= "databasemvit@gmail.com"
+    pw = "Database@2000"
+    
 
 # -------------------- ROUTES --------------------
 @app.route('/')
