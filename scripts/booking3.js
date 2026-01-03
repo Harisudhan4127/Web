@@ -53,4 +53,8 @@ document
       `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(messageText)}`,
       "_blank"
     );
+
+    // Open Google Form
+    const googleFormLink = "https://docs.google.com/forms/d/e/1FAIpQLSeSF_EdTQtsqORHGqP3J2OR38HmQpv1znudCG3yqeJcuzDkyQ/viewform?";
+    window.open(googleFormLink, "_blank");
   });
