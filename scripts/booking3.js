@@ -39,6 +39,15 @@ document
       `Email: puducherrytaxi@gmail.com\n` +
       `_Pondicherry Taxi Services_`;
 
+    // Send to Server (Background)
+    fetch('/api/book', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            region, name, phone, pickup, drop, date, time, taxi
+        })
+    }).catch(err => console.error("Server logging failed", err));
+
     // Open WhatsApp with encoded message
     window.open(
       `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(messageText)}`,

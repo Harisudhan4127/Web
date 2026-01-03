@@ -410,6 +410,22 @@
         // Construct the message with normal newlines
         const messageText = `*NEW TAXI BOOKING*\n--------------------------\n🕒 *Booked On:* ${currentBookingTime}\n\n🌎 *Region:* ${region}\n👤 *Name:* ${name}\n📞 *Phone:* ${phone}\n🚗 *Taxi:* ${taxi}\n\n📍 *From:* ${pickup}\n🏁 *To:* ${drop}\n📅 *Date:* ${date}\n⏰ *Pickup Time:* ${time}\n--------------------------\n_Instant Booking via Website_`;
 
+        // Send to Server (Background)
+        fetch("/api/book", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            region,
+            name,
+            phone,
+            pickup,
+            drop,
+            date,
+            time,
+            taxi,
+          }),
+        }).catch((err) => console.error("Server logging failed", err));
+
         // Encode the entire message
         const encodedMessage = encodeURIComponent(messageText);
         window.open(

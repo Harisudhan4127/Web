@@ -237,6 +237,25 @@
 
         const messageText = `*New Travel Enquiry*\n------------------\n👤 *Name:* ${name}\n📧 *Email:* ${email}\n📞 *Phone:* ${phone}\n💬 *Message:* ${msg}`;
 
+        // Send to Server (Background) - reusing /api/book endpoint or similar
+        // We map enquiry fields to booking fields loosely or send extra data
+        fetch("/api/book", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name,
+            phone,
+            email,
+            pickup: "Enquiry",
+            drop: "Enquiry",
+            date: new Date().toLocaleDateString(),
+            time: new Date().toLocaleTimeString(),
+            taxi: "Enquiry",
+            region: "Enquiry",
+            message: msg, // Extra field might be ignored by strict csv writer but useful if we update it
+          }),
+        }).catch((err) => console.error("Server logging failed", err));
+
         const encodedMessage = encodeURIComponent(messageText);
         window.open(
           `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
