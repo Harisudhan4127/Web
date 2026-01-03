@@ -14,7 +14,7 @@ document
     const taxi = document.getElementById("taxiType").value;
 
     // ⚠️ IMPORTANT: Replace with your Render/Railway URL for GitHub Pages
-    const BACKEND_URL = "http://localhost:3000"; 
+    const BACKEND_URL = "https://harisudhan4127.github.io/Web"; 
 
     // Get Current Timestamp
     const now = new Date();
