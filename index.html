@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src 'self' data: https://images.unsplash.com https://maps.googleapis.com; frame-src 'self' https://www.google.com; connect-src 'self';">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pondicherry Taxi | Premium Travel & Tourism</title>
     <link rel="stylesheet" href="templates/style.css" />
@@ -402,9 +403,15 @@
           now.toLocaleDateString() +
           " | " +
           now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-        const message = `*NEW TAXI BOOKING*%0A--------------------------%0A🕒 *Booked On:* ${currentBookingTime}%0A%0A🌎 *Region:* ${region}%0A👤 *Name:* ${name}%0A📞 *Phone:* ${phone}%0A🚗 *Taxi:* ${taxi}%0A%0A📍 *From:* ${pickup}%0A🏁 *To:* ${drop}%0A📅 *Date:* ${date}%0A⏰ *Pickup Time:* ${time}%0A--------------------------%0A_Instant Booking via Website_`;
-        window.open(`https://wa.me/919585641389?text=${message}`, "_blank");
+        
+        // Construct the message with normal newlines
+        const messageText = `*NEW TAXI BOOKING*\n--------------------------\n🕒 *Booked On:* ${currentBookingTime}\n\n🌎 *Region:* ${region}\n👤 *Name:* ${name}\n📞 *Phone:* ${phone}\n🚗 *Taxi:* ${taxi}\n\n📍 *From:* ${pickup}\n🏁 *To:* ${drop}\n📅 *Date:* ${date}\n⏰ *Pickup Time:* ${time}\n--------------------------\n_Instant Booking via Website_`;
+        
+        // Encode the entire message
+        const encodedMessage = encodeURIComponent(messageText);
+        window.open(`https://wa.me/919585641389?text=${encodedMessage}`, "_blank");
       }
     </script>
+
   </body>
 </html>
