@@ -229,6 +229,10 @@
     <script>
       function sendEnquiry(event) {
         event.preventDefault();
+
+        // ⚠️ IMPORTANT: Replace with your Render/Railway URL for GitHub Pages
+        const BACKEND_URL = "http://localhost:3000";
+
         const name = document.getElementById("fname").value;
         const email = document.getElementById("femail").value;
         const phone = document.getElementById("fphone").value;
@@ -239,7 +243,7 @@
 
         // Send to Server (Background) - reusing /api/book endpoint or similar
         // We map enquiry fields to booking fields loosely or send extra data
-        fetch("/api/book", {
+        fetch(`${BACKEND_URL}/api/book`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({

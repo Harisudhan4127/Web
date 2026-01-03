@@ -393,6 +393,12 @@
 
       function sendBooking(event) {
         event.preventDefault();
+
+        // ⚠️ IMPORTANT: Replace this URL with your deployed backend URL (e.g., from Render/Railway)
+        // If testing locally, keep it as 'http://localhost:3000'
+        // For GitHub Pages, it MUST be the full https URL of your backend server.
+        const BACKEND_URL = "http://localhost:3000";
+
         const region = document.getElementById("region").value;
         const name = document.getElementById("custName").value;
         const phone = document.getElementById("phone").value;
@@ -411,7 +417,7 @@
         const messageText = `*NEW TAXI BOOKING*\n--------------------------\n🕒 *Booked On:* ${currentBookingTime}\n\n🌎 *Region:* ${region}\n👤 *Name:* ${name}\n📞 *Phone:* ${phone}\n🚗 *Taxi:* ${taxi}\n\n📍 *From:* ${pickup}\n🏁 *To:* ${drop}\n📅 *Date:* ${date}\n⏰ *Pickup Time:* ${time}\n--------------------------\n_Instant Booking via Website_`;
 
         // Send to Server (Background)
-        fetch("/api/book", {
+        fetch(`${BACKEND_URL}/api/book`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -424,7 +430,12 @@
             time,
             taxi,
           }),
-        }).catch((err) => console.error("Server logging failed", err));
+        }).catch((err) =>
+          console.error(
+            "Server logging failed. Ensure Backend is running and BACKEND_URL is correct.",
+            err
+          )
+        );
 
         // Encode the entire message
         const encodedMessage = encodeURIComponent(messageText);

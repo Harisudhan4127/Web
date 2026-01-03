@@ -13,6 +13,9 @@ document
     const time = document.getElementById("time").value;
     const taxi = document.getElementById("taxiType").value;
 
+    // ⚠️ IMPORTANT: Replace with your Render/Railway URL for GitHub Pages
+    const BACKEND_URL = "http://localhost:3000"; 
+
     // Get Current Timestamp
     const now = new Date();
     const currentBookingTime =
@@ -40,7 +43,7 @@ document
       `_Pondicherry Taxi Services_`;
 
     // Send to Server (Background)
-    fetch('/api/book', {
+    fetch(`${BACKEND_URL}/api/book`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
