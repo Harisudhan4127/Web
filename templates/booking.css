@@ -39,7 +39,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background-image: url("../src/taxi-bg.jpg"); /* add taxi image */
+  background-image: url("../src/src/image.png"); /* add taxi image */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
