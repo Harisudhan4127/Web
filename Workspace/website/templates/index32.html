@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Ride | Pondicherry Taxi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="split-booking-container">
+        <div class="booking-left">
+            <h2>Ready to Travel?</h2>
+            <p class="subtitle">
+                Book your premium ride in seconds. Our drivers are professional, punctual, and ready to guide you.
+            </p>
+
+            <ul class="spec-list">
+                <li><i class="fas fa-check-circle"></i> Region-Specific Drivers</li>
+                <li><i class="fas fa-check-circle"></i> Real-time Pickup Tracking</li>
+                <li><i class="fas fa-check-circle"></i> Professional Fleet Selection</li>
+                <li><i class="fas fa-check-circle"></i> Formatted WhatsApp Alerts</li>
+            </ul>
+
+            <div class="contact-box">
+                <p><i class="fas fa-phone-alt"></i> +91 95856 41389</p>
+                <p><i class="fas fa-envelope"></i> puducherrytaxi@gmail.com</p>
+                <p><i class="fas fa-user-shield"></i> Prop. R. RAJKUMAR</p>
+            </div>
+        </div>
+
+        <div class="booking-right">
+            <h3>Enter Travel Details</h3>
+            <form id="bookingForm">
+                
+                <div class="input-group full-width">
+                    <label>Region *</label>
+                    <select id="region" required class="custom-select">
+                        <option value="" disabled selected>Select Puducherry or Tamil Nadu</option>
+                        <option value="Puducherry">Puducherry (Local)</option>
+                        <option value="Tamil Nadu">Tamil Nadu (Outstation)</option>
+                    </select>
+                </div>
+
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label>Name *</label>
+                        <input type="text" id="custName" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <label>WhatsApp Number *</label>
+                        <input type="tel" id="phone" placeholder="+91" required>
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label>Pickup Location *</label>
+                        <input type="text" id="pickup" placeholder="From..." required>
+                    </div>
+                    <div class="input-group">
+                        <label>Drop-off Location *</label>
+                        <input type="text" id="drop" placeholder="To..." required>
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label>Booking Date *</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Pickup Time *</label>
+                        <input type="time" id="time" required>
+                    </div>
+                </div>
+
+                <div class="input-group full-width">
+                    <label>Select Taxi *</label>
+                    <select id="taxiType" required class="custom-select">
+                        <option value="Toyota Etios">Toyota Etios (4+1)</option>
+                        <option value="Swift Dzire">Swift Dzire (4+1)</option>
+                        <option value="Innova Crysta">Innova Crysta (6+1)</option>
+                        <option value="Tempo Traveller">Tempo Traveller (12+1)</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Confirm Booking via WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

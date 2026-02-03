@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Basic Page Setup */
+body {
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7f6; 
+    color: #2d3436;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.sub-nav {
+    background: #1e272e; 
+    padding: 15px 5%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.back-link { 
+    color: #fbc531; 
+    text-decoration: none; 
+    font-weight: 600; 
+    transition: 0.3s;
+}
+
+.back-link:hover {
+    color: white;
+}
+
+.logo { 
+    color: white; 
+    font-weight: 700; 
+    font-size: 20px; 
+    letter-spacing: 1px; 
+}
+
+.logo span { color: #fbc531; }
+
+/* Header Themes */
+.tour-header {
+    background: #fbc531; 
+    color: #1e272e;
+    padding: 60px 5%; 
+    text-align: center; 
+    margin-bottom: 40px;
+}
+
+.tn-theme { 
+    background: #1e272e; 
+    color: #fbc531; 
+}
+
+.transfer-theme { 
+    background: #2c3e50; 
+    color: #fbc531; 
+}
+
+/* Grid Layout */
+.spot-grid {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px; 
+    padding: 0 8% 40px; /* Reduced bottom padding to flow into specs-box */
+}
+
+/* Standard Destination Cards */
+.spot-card {
+    background: white; 
+    padding: 25px; 
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-left: 5px solid #fbc531;
+    transition: transform 0.3s ease;
+}
+
+.spot-card:hover {
+    transform: translateY(-5px);
+}
+
+.spot-card h4 { 
+    margin: 0 0 5px 0; 
+    color: #1e272e; 
+}
+
+.spot-card p { 
+    margin: 0; 
+    font-size: 13px; 
+    color: #636e72; 
+    font-weight: bold; 
+}
+
+/* Specialized Hub Cards (Airports/Railways) */
+.hub-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.hub-card i {
+    font-size: 35px; 
+    color: #fbc531;
+    margin-bottom: 15px;
+}
+
+.hub-card h4 {
+    font-size: 1
+}
